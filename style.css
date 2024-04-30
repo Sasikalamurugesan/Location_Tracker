@@ -1,0 +1,78 @@
+html, body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    background-image: url('https://www.motorera.com/wp-content/uploads/2017/03/gpsfleettracking.jpg'); /* Replace 'your-image-url.jpg' with the URL of your background image */
+    background-size: cover; 
+    background-position: center; 
+    height: 100%; 
+}
+
+.container {
+    max-width: 500px;
+    color: #fff;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.5); 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.getLocationBtn{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+header {
+    background-color:rgb(239, 228, 215);
+    color:black;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    border-radius: 10px; /* Add margin at the bottom */
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    margin: 0;
+}
+
+#locationSection, #graphSection {
+    margin-bottom: 20px; /* Add some space between sections */
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#locationData {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff; /* Set text color */
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: slategray;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#graphContainer {
+    text-align: center;
+}
+
+footer {
+    background-color:rgb(239, 228, 215);
+    color:black;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed; /* Fix footer to the bottom */
+    bottom: 0;
+    width: 100%;
+    /* border-top: 2px ; */
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
